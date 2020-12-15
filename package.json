@@ -7,6 +7,7 @@
     "db:start": "docker-compose up -d db",
     "db:stop": "docker-compose down",
     "migrate": "node-pg-migrate",
+    "cypress:open": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +29,8 @@
     "massive": "^6.6.1",
     "node-pg-migrate": "^3.21.1",
     "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "cypress": "^6.1.0"
   }
 }
